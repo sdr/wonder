@@ -1,6 +1,7 @@
 # Wonder
 
-TODO: Write a gem description
+This gem add encryp and uncryp function to String, also add a format
+function to Integer and Float
 
 ## Installation
 
@@ -18,7 +19,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+You can use your private key to encryp or uncryp one string, for example:
+key = "thisismykey"
+
+encryped_str = 'HelloWorld'.to_encryp
+
+uncryped_str = encryped_str.to_uncryp
+
+puts uncryped_str
+
+Also you can use commas function to format an Integer or a Float
+
+puts 123.commas      #123.00
+puts 123.4.commas    #123.40
+puts 12345.67.commas #12,345.67
+
 
 ## Contributing
 
