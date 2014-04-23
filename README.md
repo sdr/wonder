@@ -40,7 +40,7 @@ puts 12345.67.commas   #12,345.67
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/wonder/fork )
+1. Fork it ( https://github.com/sdr/wonder/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
