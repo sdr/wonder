@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["sdr@263.net"]
   spec.summary       = %q{add encryp and uncryp function to String and add format function to Integer and Float.}
   spec.description   = %q{String.to_encryp String.to_uncryp Integer.commas Float.commas}
-  spec.homepage      = "www.iwuye.net"
+  spec.homepage      = "http://www.iwuye.net"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
