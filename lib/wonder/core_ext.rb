@@ -54,6 +54,14 @@ end
 
 # format an integer
 
+BigDecimal.class_eval do
+  def commas
+    str = sprintf("%0.2f",self).to_s.reverse
+    str.gsub!(/([0-9]{3})/,"\\1,")
+    str.gsub(/,$/,"").reverse
+  end  
+end
+
 Integer.class_eval do
   def commas
     str = sprintf("%0.2f",self).to_s.reverse
